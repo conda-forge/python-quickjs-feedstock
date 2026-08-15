@@ -13,16 +13,15 @@ source:
     - setup.patch
 
 build:
-  number: 3
+  number: 4
 
 requirements:
   build:
-    - {{ compiler('c') }}  # [not win]
-    - {{ stdlib("c") }}    # [not win]
-    - {{ compiler('m2w64_c') }}  # [win]
-    - {{ stdlib("m2w64_c") }}    # [win]
+    # uses m2w64 toolchain on windows, see conda_build_config.yaml
+    - {{ stdlib("c") }}
+    - {{ compiler("c") }}
   host:
-    - libpython  # [win]
+    - distutils-activate-mingw  # [win]
     - python
     - pip
     - setuptools
