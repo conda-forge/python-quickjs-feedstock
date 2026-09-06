@@ -1,5 +1,5 @@
-About python-quickjs-feedstock
-==============================
+About quickjs-feedstock
+=======================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-quickjs-feedstock/blob/main/LICENSE.txt)
 
@@ -12,11 +12,6 @@ Summary: Wrapping the quickjs C library.
 Development: https://github.com/PetterS/quickjs
 
 Documentation: https://bellard.org/quickjs/
-
-Python wrapper around https://bellard.org/quickjs/
-Translates types like str, float, bool, list, dict and combinations thereof to and from Javascript.
-QuickJS is currently thread-hostile, so this wrapper makes sure that all calls to the same JS runtime comes from the same thead.
-
 
 Current build status
 ====================
@@ -43,38 +38,38 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>osx_64_python3.11.____cpython</td>
+              <td>osx_64_channel_sourcesconda-forgeconda-forgelabelpython_rcpython3.15.____cp315</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17742&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-quickjs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-quickjs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgeconda-forgelabelpython_rcpython3.15.____cp315" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.12.____cpython</td>
+              <td>osx_64_channel_sourcesconda-forgepython3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17742&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-quickjs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-quickjs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgepython3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.13.____cp313</td>
+              <td>osx_64_channel_sourcesconda-forgepython3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17742&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-quickjs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.13.____cp313" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-quickjs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgepython3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.14.____cp314</td>
+              <td>osx_64_channel_sourcesconda-forgepython3.13.____cp313</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17742&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-quickjs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.14.____cp314" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-quickjs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgepython3.13.____cp313" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.15.____cp315</td>
+              <td>osx_64_channel_sourcesconda-forgepython3.14.____cp314</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17742&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-quickjs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.15.____cp315" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python-quickjs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgepython3.14.____cp314" alt="variant">
                 </a>
               </td>
             </tr>
@@ -90,12 +85,12 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-python--quickjs-green.svg)](https://anaconda.org/conda-forge/python-quickjs) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/python-quickjs.svg)](https://anaconda.org/conda-forge/python-quickjs) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/python-quickjs.svg)](https://anaconda.org/conda-forge/python-quickjs) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/python-quickjs.svg)](https://anaconda.org/conda-forge/python-quickjs) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-quickjs-green.svg)](https://anaconda.org/conda-forge/quickjs) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/quickjs.svg)](https://anaconda.org/conda-forge/quickjs) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/quickjs.svg)](https://anaconda.org/conda-forge/quickjs) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/quickjs.svg)](https://anaconda.org/conda-forge/quickjs) |
 
-Installing python-quickjs
-=========================
+Installing quickjs
+==================
 
-Installing `python-quickjs` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `quickjs` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
@@ -109,7 +104,7 @@ How to use
 <summary>With conda</summary>
 
 ```
-conda install python-quickjs
+conda install quickjs
 ```
 
 </details>
@@ -118,7 +113,7 @@ conda install python-quickjs
 <summary>With mamba</summary>
 
 ```
-mamba install python-quickjs
+mamba install quickjs
 ```
 
 </details>
@@ -128,9 +123,9 @@ mamba install python-quickjs
 
 ```
 # for adding to your local project
-pixi add python-quickjs
+pixi add quickjs
 # for installing globally
-pixi global install python-quickjs
+pixi global install quickjs
 ```
 
 </details>
@@ -138,13 +133,13 @@ pixi global install python-quickjs
 Search package versions
 -----------------------
 
-It is possible to list all of the versions of `python-quickjs` available on your platform:
+It is possible to list all of the versions of `quickjs` available on your platform:
 
 <details>
 <summary>With conda</summary>
 
 ```
-conda search python-quickjs --channel conda-forge
+conda search quickjs --channel conda-forge
 ```
 
 </details>
@@ -153,7 +148,7 @@ conda search python-quickjs --channel conda-forge
 <summary>With mamba</summary>
 
 ```
-mamba search python-quickjs --channel conda-forge
+mamba search quickjs --channel conda-forge
 ```
 
 </details>
@@ -162,7 +157,7 @@ mamba search python-quickjs --channel conda-forge
 <summary>With pixi</summary>
 
 ```
-pixi search python-quickjs --channel conda-forge
+pixi search quickjs --channel conda-forge
 ```
 
 </details>
@@ -172,13 +167,13 @@ pixi search python-quickjs --channel conda-forge
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search python-quickjs --channel conda-forge
+mamba repoquery search quickjs --channel conda-forge
 
-# List packages depending on `python-quickjs`:
-mamba repoquery whoneeds python-quickjs --channel conda-forge
+# List packages depending on `quickjs`:
+mamba repoquery whoneeds quickjs --channel conda-forge
 
-# List dependencies of `python-quickjs`:
-mamba repoquery depends python-quickjs --channel conda-forge
+# List dependencies of `quickjs`:
+mamba repoquery depends quickjs --channel conda-forge
 ```
 
 </details>
@@ -225,17 +220,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating python-quickjs-feedstock
-=================================
+Updating quickjs-feedstock
+==========================
 
-If you would like to improve the python-quickjs recipe or build a new
+If you would like to improve the quickjs recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/python-quickjs-feedstock are
+Note that all branches in the conda-forge/quickjs-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks, and branches in the main repository should only be used to
 build distinct package versions.
