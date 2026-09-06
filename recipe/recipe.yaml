@@ -34,6 +34,9 @@ tests:
         - quickjs
       pip_check: true
   - script: python -m unittest
+    files:
+      recipe:
+        - test_quickjs.py
 
 about:
   homepage: https://github.com/PetterS/quickjs
